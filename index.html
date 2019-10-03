@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+	<title>Realm Digital Interview Assessment - Front End Developer</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		input[type="text"] {
+		  width: 100%;
+		  border: 2px solid #aaa;
+		  margin: 8px 0;
+		  outline: none;
+		  padding: 5px;
+		  box-sizing: border-box;
+		  transition: 0.3s;
+		}
+
+		input[type="text"]:focus {
+		  border-color: dodgerBlue;
+		  box-shadow: 0 0 8px 0 dodgerBlue;
+		}
+
+		.p-inputWithIcon input[type="text"] {
+		  padding-right: 28px;
+		}
+
+		.p-inputWithIcon {
+		  position: relative;
+		}
+
+		.p-inputWithIcon i {
+		  position: absolute;
+		  right: 6px;
+		  top: 8px;
+		  padding: 9px 8px;
+		  color: #aaa;
+		  transition: 0.3s;
+		}
+		.p-inputWithIcon input[type="text"]:focus + i {
+		  color: dodgerBlue;
+		}
+
+		.p-inputWithIcon.p-inputIconBg i {
+		  color: #aaa;
+		  padding: 9px 6px;
+		  border-radius: 4px 0 0 4px;
+		}
+
+		.p-inputWithIcon.p-inputIconBg input[type="text"]:focus + i {
+		  color: dodgerBlue;
+		}
+		.p-buttons button{
+		  width: 100%;
+		  border: 2px solid #aaa;
+		  border-radius:10px;
+		  margin: 8px 0;
+		  outline: none;
+		  padding: 5px;
+		  box-sizing: border-box;
+		  background-color:#fff;
+		}
+		.row{
+		  margin-bottom:15px;
+		}
+		.p-image{
+		  position:relative;
+		}
+		.p-image img{
+		  max-width: 300px;
+		  width:100%;
+		  height:auto;
+		}
+		.p-table table tr td{
+		  border: 2px solid #aaa;
+		  padding:5px;
+		}
+	</style>
+<body>
+
+	<!-- Section 1 -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h1>Website Name<h1/>
+				</div>
+				<div class="col-md-3">
+					<div class="p-section-info">
+						<h4>Section 1</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="p-section-info">
+						<h4>Section 2</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="p-section-info">
+						<h4>Section 1</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="p-section-info">
+						<h4>Search</h4>
+						<div class="p-inputWithIcon p-inputIconBg">
+							<input type="text" placeholder="Search"/>
+							<i class="fa fa-search fa-lg fa-fw" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section 2 -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<h4 style="padding-left:15px;">Title 1</h4>
+				<div class="col-md-9">
+					<div class="p-section-info">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="p-section-info">
+						<div class="p-buttons">
+							<button>Button 1</button>
+							<button>Button 2</button>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section 3 -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="p-section-info">
+						<div class="p-image">
+							<img src="default.png"/>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="p-section-info">
+						<h4>Title 2</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="p-section-info">
+						<h4>Title 3</h4>
+						<div class="p-table">
+							<table>
+								<tr><td><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></td></tr>
+								<tr><td><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></td></tr>
+								<tr><td><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></td></tr>
+								<tr><td><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></td></tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
